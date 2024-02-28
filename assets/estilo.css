@@ -1,0 +1,113 @@
+/* Limpar formatação padrão */
+* {
+    margin:0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #e6e6e6;
+}
+
+/* Layout */
+#area-cabeçalho{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo{
+    pad: 10px;
+}
+
+#area-menu{
+    padding: 10px;
+}
+
+#area-principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+#area-postagem{
+    width: 660px;
+    float: left;
+}
+
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ebebeb;
+}
+
+.conteudo-lateral{
+    font-size: 8px;
+    padding: 5px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+#rodape{
+    text-align: center;
+    padding: 15px;
+    background-color: #ccccccd6;
+
+}
+
+/*formatação do menu*/
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: #f7b600;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#area-cabeçalho a:link, #area-cabeçalho a:visited{
+    color: #fff;
+    padding: 8px 12px;
+}
+
+#area-cabeçalho a:hover{
+    color: #f7b600;
+    background-color: #e6e6e6;
+    text-decoration: none;
+}
+/* Formatações Gerais*/
+h1 {
+    color: #ccccccd6;
+    font-size: 30px;
+}
+
+h2{
+    color: #f7b600;
+}
+
+h3{
+    color: #ccccccd6;
+    background-color: #e6e6e6;
+    padding: 5px;
+}
+
+.branco{
+    color: #e6e6e6;
+}
+
+.data-postagem{
+    font-size: 5px;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
